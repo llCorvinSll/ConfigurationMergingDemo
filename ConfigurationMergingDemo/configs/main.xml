@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <RIPESection pass="emptypassword" source="TEST" host="https://rest-test.db.ripe.net" >
+    <inetnum
+			changedEmail="mail@mail.com"
+			netNamePattern="CUST-{0}"
+			emptyNetNamePattern="EMPTY NETWORK #{0}"
+			emptyNetDescr="Empty network"
+			personNetDescr="Colocation customer">
+
+      <Defaults name="country" param="country" value="RU" />
+      <Defaults name="admin-c" param="admin-c" value="AA1-TEST" />
+      <Defaults name="tech-c" param="tech-c" value="AA2-TEST" />
+      <Defaults name="status" param="status" value="ASSIGNED PA" />
+      <Defaults name="mnt-by" param="mnt-by" value="TEST-DBM-MNT" />
+      
+    </inetnum>
+  </RIPESection>
+
+</configuration>

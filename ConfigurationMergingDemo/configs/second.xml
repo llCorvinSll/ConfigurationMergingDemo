@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+  <RIPESection pass="imchanged" source="TEST" host="https://rest-test.db.ripe.net" >
+ 
+    <inetnum
+			personNetDescr="imchanged">
+      
+      <!--i want replace this set of node-->
+      <Defaults name="country" param="country" value="RU" />
+      <Defaults name="admin-c" param="admin-c" value="AA3-TEST" />
+      <Defaults name="tech-c" param="tech-c" value="AA4-TEST" />
+    </inetnum>
+  </RIPESection>
+
+</configuration>
